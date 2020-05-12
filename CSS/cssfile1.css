@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Turret+Road&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+.bk1 {
+	background-image: url(../images/5bdecc2242a728a16e9f2e570b1b635a.jpg);
+	height: 1280;
+	width: 1600;
+	overflow-x:hidden;
+	-moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.dashboard {
+    background-color: rgba(0,0,0,0.5);
+	height: 140;
+	width: 1600;
+	position: relative;
+	top: -20px;
+	left: -20px;
+	overflow-x:hidden;
+}
+
+#list {
+    font-family: 'Turret Road', cursive;
+	font-size: 24;
+	color: white;
+	text-decoration: none;
+}
+
+#list:hover {
+	color: #FFBF00;
+    /* Firefox */
+    -moz-transition: all 0.4s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.4s ease-in;
+    /* Opera */
+    -o-transition: all 0.4s ease-in;
+    /* Standard */
+    transition: all 0.4s ease-in;
+}
+
+.menu {
+	border: 0px solid white;
+	position: absolute;
+	top: 50px;
+	right: 150px;
+	height: 80px;
+	width: 600px;
+}
+
+.heading {
+	color: white;
+    font-family: 'PT Sans', sans-serif;
+	font-style: bold;
+}
+
+ul li{
+  display: inline;
+}
+
+.credits {
+    font-family: 'Karla', sans-serif;
+	color: rgba(255, 255, 255, 0.4);
+	font-size: 26;
+	font-style: italic;
+}
+
+.news {
+	animation-duration: 1.6s;
+	background-color: rgba(0,0,0,0.5);
+	border: 0px solid white;
+	width: 758px;
+	height: 248px;
+}
+
+.newsheading {
+	color: rgba(255, 255, 255, 0.9);
+	font-family: 'Karla', sans-serif;
+	size: 18;
+	font-style: italic;
+}
+
+p {
+	color: rgba(255,255,255, 0.5);
+	font-family: 'Karla', sans-serif;
+	font-size: 18;
+}
+
+.blk:hover {
+	color: black;
+	-moz-transition: all 0.4s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.4s ease-in;
+    /* Opera */
+    -o-transition: all 0.4s ease-in;
+    /* Standard */
+    transition: all 0.4s ease-in;
+}
